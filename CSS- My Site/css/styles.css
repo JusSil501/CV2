@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Helvetiva Nueue",Helvetiva,Arial,sans-sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 5.625rem;
+}
+hr{
+  margin-bottom: 0;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+
+}
+.p{
+  text-align: left;
+  line-height: 2;
+}
+.meme{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+.meme2{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+.baby {
+  border-radius: 50%;
+  width: 50%
+
+}
+.top_container{
+  background-color: #ADD8E6;
+  position: relative;
+  padding-top: 100px;
+}
+.bean{
+  text-decoration: underline;
+}
+.contact-me{
+  background-color: #ADD8E6;
+  margin-top: 0;
+}
+
+
+.bottom-container{
+  background-color: #ADD8E6;
+  margin-bottom: 0;
+  padding: 50px 0 20px;
+}
+
+/* relative positioning
+ex.
+
+.bottom_container{
+position: relative;
+right: 20 px;
+}
+
+pushes the div 20 pixels to left
+
+block elements
+take up all of the row
+
+inline elements
+only take up the space that is neccesary
+
+inline/block elements
